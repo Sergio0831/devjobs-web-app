@@ -1,0 +1,13 @@
+.header {
+  background-image: url(../assets/mobile/bg-pattern-header.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 10rem;
+  width: 100vw;
+}
+
+@media screen and (min-width: 48rem) {
+  .header {
+    background-image: url(../assets/desktop/bg-pattern-header.svg);
+  }
+}
