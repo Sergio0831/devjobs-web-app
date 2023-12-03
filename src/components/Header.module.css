@@ -1,13 +1,12 @@
 .header {
-  background-image: url(../assets/mobile/bg-pattern-header.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 10rem;
+  height: 8.5rem;
   width: 100vw;
+  background-color: var(--violet);
 }
 
 @media screen and (min-width: 48rem) {
   .header {
-    background-image: url(../assets/desktop/bg-pattern-header.svg);
+    height: 10rem;
+    border-bottom-left-radius: 6.25rem;
   }
 }

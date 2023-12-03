@@ -33,5 +33,7 @@ module.exports = {
     'linebreak-style': 0,
     'react/jsx-one-expression-per-line': 0,
     'react/require-default-props': 0,
+    'eslint-disable-next-line': 0,
+    'object-curly-newline': 0,
   },
 };
